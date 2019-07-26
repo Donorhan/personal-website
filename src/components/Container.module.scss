@@ -1,0 +1,19 @@
+@import '../styles/mixins.scss';
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@include media(">phone", "<=tablet") {
+    .container {
+        width: 80%;
+    }
+}
+
+@include media(">phone") {
+    .container {
+        width: 100%;
+        max-width: 1200px;
+    }
+}

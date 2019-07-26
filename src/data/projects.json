@@ -1,0 +1,333 @@
+[
+    {
+        "name": "Echo",
+        "type": "game",
+        "thumbnail": "img/echo/1.jpg",
+        "description": "Echo is an adventure/action/exploration game in space. The idea is to have a game in which the player can explore the universe at will while improving his ship and crew to go further and further into space. Obviously it would be too simple like that, many obstacles will be present throughout the trip.<br /><br />The game is under development.",
+        "technologies": [
+            "Custom packages",
+            "Unity"
+        ],
+        "platforms": [
+            "IOS",
+            "Android",
+            "Osx",
+            "Windows",
+            "Linux"
+        ],
+        "images": [
+            "../../img/echo/1.jpg",
+            "../../img/echo/2.jpg",
+            "../../img/echo/3.jpg"
+        ],
+        "infos": [
+            "Using Unity",
+            "Side project"
+        ],
+        "date": ""
+    },
+    {
+        "name": "0x42c4d3",
+        "type": "game",
+        "thumbnail": "img/0x42c4d3/1.jpg",
+        "description": "A game developed for the fun, the goal is to win it by all possible means. It is possible to hit the opponent or throw objects at him.",
+        "technologies": [
+            "Unity"
+        ],
+        "platforms": [
+            "IOS",
+            "Android",
+            "Web"
+        ],
+        "images": [
+            "../../img/0x42c4d3/1.jpg",
+            "../../img/0x42c4d3/2.jpg",
+            "../../img/0x42c4d3/3.jpg"
+        ],
+        "infos": [
+            "Using Unity",
+            "Side project"
+        ],
+        "date": ""
+    },
+    {
+        "name": "0x5A17ED",
+        "type": "game",
+        "thumbnail": "img/0x5A17ED/1.jpg",
+        "description": "This game started from a music: my brother sent me a sample from one of his new music. It immediately made me want to create a game around it, then I set myself the goal of developing it in less than 10 hours.",
+        "technologies": [
+            "C++",
+            "OpenGL ES 2",
+            "FMOD",
+            "SXEngine (Custom game engine)"
+        ],
+        "platforms": [
+            "Web",
+            "Osx",
+            "Windows"
+        ],
+        "images": [
+            "../../img/0x5A17ED/1.jpg",
+            "../../img/0x5A17ED/2.jpg",
+            "../../img/0x5A17ED/3.jpg",
+            "../../img/0x5A17ED/4.jpg"
+        ],
+        "infos": [
+            "A side project",
+            "Made in ~11 hours"
+        ],
+        "video": "https://www.youtube-nocookie.com/embed/1d2ctjI4s-g",
+        "website": "https://dorhan.itch.io/0x5a17ed",
+        "date": ""
+    },
+    {
+        "name": "LemonJS",
+        "type": "library",
+        "thumbnail": "img/lemonjs/1.jpg",
+        "description": "LemonJS is an open source rendering engine using WebGL created to help people discover the world of 3D. It allowed me to improve my skills in low level rendering, it was also an opportunity to improve with the ES6.",
+        "technologies": [
+            "Javascript",
+            "WebGL"
+        ],
+        "platforms": [
+            "Web"
+        ],
+        "images": [
+            "../../img/lemonjs/1.jpg",
+            "../../img/lemonjs/2.jpg",
+            "../../img/lemonjs/3.jpg",
+            "../../img/lemonjs/4.jpg",
+            "../../img/lemonjs/5.jpg"
+        ],
+        "infos": [
+            "Side project",
+            "Open source"
+        ],
+        "website": "https://github.com/Donorhan/Lemon-JS",
+        "date": ""
+    },
+    {
+        "name": "Fox Rush",
+        "type": "game",
+        "thumbnail": "img/foxrush/1.jpg",
+        "description": "Fox Rush is all about time!<br /><br /> Don’t let it run out! Fight the countdown by collecting as many time bonuses as you can in the maze. But beware... from nasty ducks to vicious turtles, you are not alone! Use the various bonuses and bombs wisely to keep them away from you! Survive as long as you can and get the highest score.<br /> Compete against your friends on the leaderboard and become the best player!",
+        "technologies": [
+            "C++",
+            "OpenGL ES 2",
+            "FMOD",
+            "SXEngine (Custom game engine)"
+        ],
+        "platforms": [
+            "IOS",
+            "Android"
+        ],
+        "images": [
+            "../../img/foxrush/1.jpg",
+            "../../img/foxrush/2.jpg",
+            "../../img/foxrush/3.jpg",
+            "../../img/foxrush/4.jpg",
+            "../../img/foxrush/5.jpg",
+            "../../img/foxrush/6.jpg"
+        ],
+        "video": "https://www.youtube-nocookie.com/embed/F9ksUPbvseo",
+        "infos": [
+            "Use a custom engine",
+            "Made for Sybrix",
+            "Not available anymore"
+        ],
+        "date": ""
+    },
+    {
+        "name": "Fox Fender",
+        "type": "game",
+        "thumbnail": "img/foxfender/1.jpg",
+        "description": "Fox Fender is based on the traditional tower defense concept… with a few twists thrown in the mix.<br /><br />You will have to outsmart and outgun your enemies, from nasty ducks to powerful turtles and other cheeky enemies, to keep them from stealing your treasure. Collect resources, build your own defenses and weapons and try to set up the best strategy to keep it safe!<br /> <br /> Fox Fender includes a 32-level-long adventure, and a challenging endless mode in which you will have to survive as long as you can.",
+        "technologies": [
+            "C++",
+            "OpenGL ES 2",
+            "FMOD",
+            "SXEngine (Custom game engine)"
+        ],
+        "platforms": [
+            "IOS",
+            "Android"
+        ],
+        "images": [
+            "../../img/foxfender/1.jpg",
+            "../../img/foxfender/2.jpg",
+            "../../img/foxfender/3.jpg",
+            "../../img/foxfender/4.jpg",
+            "../../img/foxfender/5.jpg",
+            "../../img/foxfender/6.jpg"
+        ],
+        "infos": [
+            "Use a custom engine",
+            "Made for Sybrix",
+            "Not available anymore"
+        ],
+        "video": "https://www.youtube.com/embed/MOxJuTySWCk",
+        "date": ""
+    },
+    {
+        "name": "SXEngine",
+        "type": "framework",
+        "thumbnail": "img/sxengine/1.jpg",
+        "description": "A cross-platform video game engine for 2D/3D made for Sybrix, all engine components were created from scratch. The games Fox Rush and Fox Fender were created using this engine.",
+        "technologies": [
+            "C++",
+            "OpenGL ES 2",
+            "FMOD",
+            "CMake",
+            "Android NDK",
+            "IOS SDK"
+        ],
+        "platforms": [
+            "IOS",
+            "Android",
+            "Web",
+            "Windows",
+            "Osx",
+            "Linux"
+        ],
+        "images": [
+            "../../img/sxengine/1.jpg"
+        ],
+        "infos": [
+            "Two games using it",
+            "Source code private"
+        ],
+        "date": ""
+    },
+    {
+        "name": "Ornikar",
+        "thumbnail": "img/ornikar/1.jpg",
+        "video": "https://www.youtube.com/embed/9qUrzxFK8Lc",
+        "description": "Ornikar is the brand name of an accredited online driving school1, founded in 2013. The company is the leader in road safety education in France: with 200,000 students, it represents 20% of the driving licence market in 2018. It makes it possible to revise the highway code in all French cities and to book lessons with state-certified driving professionals.<br /><br />I had the chance to work on this project at its beginning, since the platform was completely changed.",
+        "website": "https://www.ornikar.com/",
+        "technologies": [
+            "Laravel",
+            "Angular",
+            "PostgreSQL"
+        ],
+        "platforms": [
+            "Web"
+        ],
+        "images": [
+            "../../img/ornikar/1.jpg",
+            "../../img/ornikar/2.jpg",
+            "../../img/ornikar/3.jpg"
+        ],
+        "infos": [
+            "Made for Ornikar",
+            "Codebase changed"
+        ],
+        "date": ""
+    },
+    {
+        "name": "My candy love",
+        "thumbnail": "img/mycandylove/1.jpg",
+        "video": "https://www.youtube.com/embed/-zZRpjmD7dA",
+        "description": "My candy love is a game of drag or otome designed and published by the Beemoov company, based on an original idea by ChiNoMiko. The player plays a high school student who has just arrived in a new establishment where she will meet new people.<br /><br />Working on this project was a pleasure, the team was really nice and talented, the game was fun and had many fans all over the world.",
+        "website": "https://www.mycandylove.com/",
+        "technologies": [
+            "Javascript",
+            "PHP",
+            "MySQL",
+            "Google closure compiler"
+        ],
+        "platforms": [
+            "IOS",
+            "Android",
+            "Web"
+        ],
+        "images": [
+            "../../img/mycandylove/1.jpg",
+            "../../img/mycandylove/2.jpg",
+            "../../img/mycandylove/3.jpg",
+            "../../img/mycandylove/4.jpg",
+            "../../img/mycandylove/5.jpg"
+        ],
+        "infos": [
+            "Made for Beemoov",
+            "There is a sequel",
+            "Saw on French TV"
+        ],
+        "date": ""
+    },
+    {
+        "name": "Rue du fric",
+        "thumbnail": "img/ruedufric/1.jpg",
+        "video": "https://www.youtube.com/embed/1X1PWbentJw",
+        "description": "Rue du fric is a free and multiplayer real estate management game, in which you play as an investor whose goal is to do as much business as possible. To do this, it will be necessary to buy land, then exploit it by building houses, pavilions, luxury villas, private mansions or HMLs, then make it grow by collecting rents or by selling it at the right time",
+        "technologies": [
+            "Javascript",
+            "PHP",
+            "MySQL"
+        ],
+        "platforms": [
+            "Web"
+        ],
+        "images": [
+            "../../img/ruedufric/1.jpg",
+            "../../img/ruedufric/2.jpg",
+            "../../img/ruedufric/3.jpg",
+            "../../img/ruedufric/4.jpg",
+            "../../img/ruedufric/5.jpg"
+        ],
+        "infos": [
+            "Game canceled",
+            "Saw on French TV"
+        ],
+        "date": ""
+    },
+    {
+        "name": "Smash 2D",
+        "type": "game",
+        "thumbnail": "img/smash2D/1.jpg",
+        "video": "https://www.youtube.com/embed/FNyYsS4-Go8",
+        "description": "My very first game! It was a competition on a French site to learn to develop that pushed me to learn C++ alongside studying. <br />The idea of this project was to make a copy of Super Smash Bros for computer, I was young and innocent, so please, forgive me 🙄",
+        "technologies": [
+            "C++",
+            "OpenGL"
+        ],
+        "platforms": [
+            "Windows",
+            "Linux"
+        ],
+        "images": [
+            "../../img/smash2D/1.jpg",
+            "../../img/smash2D/2.jpg",
+            "../../img/smash2D/3.jpg",
+            "../../img/smash2D/4.jpg",
+            "../../img/smash2D/5.jpg"
+        ],
+        "infos": [
+            "Made from scratch",
+            "My first project"
+        ],
+        "date": ""
+    },
+    {
+        "name": "2D physics engine",
+        "type": "library",
+        "thumbnail": "img/physicengine/1.jpg",
+        "description": "A 2D physics engine created during my studies, this one allows to detect and solve collisions between convex polygons.<br />I based myself on the separating axis theorem (SAT).",
+        "technologies": [
+            "C",
+            "OpenGL",
+            "SDL"
+        ],
+        "platforms": [
+            "Windows"
+        ],
+        "images": [
+            "../../img/physicengine/1.jpg"
+        ],
+        "infos": [
+            "School project",
+            "No assets availables"
+        ],
+        "website": "https://github.com/DonoSybrix/PhysicEngine",
+        "date": ""
+    }
+]

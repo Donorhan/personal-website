@@ -1,0 +1,7 @@
+.logo {
+    transition: all 0.1s;
+
+    &:hover {
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,88 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/mixins.scss';
+
+footer {
+    clear: both;
+    color: white;
+    padding: 20px 0;
+    background: #445059;
+    font-size: 0.95em;
+    line-height: 170%;
+    text-align: center;
+
+    svg {
+        fill: white;
+        transform: scale(1.5);
+        transition: all 0.15s;
+        filter: drop-shadow( 0 0 0 rgba(255, 255, 255, .7));
+
+        &:hover {
+            transform: scale(1.35);
+            fill: white;
+            filter: drop-shadow( 0 0 5px rgba(255, 255, 255, .7));
+        }
+    }
+
+    > * {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+
+    ul {
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        li {
+            padding: 15px 20px;
+
+            a {
+                border: none;
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@include media(">phone") {
+    footer {
+        padding: 40px 0;
+        text-align: left;
+
+        > * {
+            flex-direction: row;
+        }
+
+        svg {
+            transform: scale(1.2);
+        }
+
+        .about {
+            flex-basis: 85%;
+        }
+
+        .socials {
+            text-align: center;
+            flex-basis: 15%;
+        }
+
+        ul {
+        max-width: 150px;
+
+            li {
+                padding: 15px 10px;
+            }
+        }
+    }
+}

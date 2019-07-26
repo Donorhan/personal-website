@@ -1,0 +1,24 @@
+.skill {
+    max-width: 80px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    transition: all 0.25s;
+    text-decoration: none;
+    border-bottom: 0;
+    font-weight: normal;
+    margin: 15px 20px;
+
+    img {
+        display: block;
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin-bottom: 5px;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        font-weight: bold;
+    }
+}
