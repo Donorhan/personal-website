@@ -20,7 +20,7 @@ const Menu = ({ goBackHome }) => (
             )}
             {!goBackHome && (
                 <Fragment>
-                    {/* <li><a href="blog">Blog</a></li> */}
+                    <li><a href="blog">Blog</a></li>
                     <li><button type="button" className="link" onClick={() => scrollTo('work')}>Work</button></li>
                     <li><button type="button" className="link" onClick={() => scrollTo('tools')}>Tools</button></li>
                     <li><button type="button" className="link" onClick={() => scrollTo('about')}>About</button></li>

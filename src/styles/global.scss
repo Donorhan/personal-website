@@ -147,17 +147,137 @@ section {
 }
 
 .article {
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+    div > div {
+        max-width: 960px;
+        margin: 0 auto;
+        font-weight: normal;
+    }
+
+    &.without-padding {
+        padding-top: 0;
+    }
+
     .h1, .h2 {
         text-align: center;
     }
 
     p {
-        margin: 0 auto;
-        max-width: 728px;
+        margin: 10px 0;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 2px;
+        color: #666;
+        margin: 60px 0 20px 0;
+
+        &:after {
+            content: '';
+            width: 200px;
+            height: 5px;
+            background-color: #ACE6F6;
+            display: block;
+            margin: 30px auto;
+            text-align: center;
+            padding: 0;
+        }
+    }
+
+    a {
+        &:after {
+            display: none;
+        }
+    }
+
+    em {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    img {
+        max-width: 100%;
+        margin: 20px auto 0 auto;
+    }
+
+    iframe, .iframe {
+        margin: 15px auto;
+        margin-bottom: 40px;
+        max-width: 100%;
+    }
+
+    ul {
+        li {
+            span {
+                display: block;
+                margin-bottom: 15px;
+            }
+        }
     }
 }
 
+.blog-post-card {
+    background-color: $light-grey;
+    box-shadow: 0 24px 48px rgba(14, 21, 47, 0.1), 0 12px 24px rgba(14, 21, 47, 0.1);
+    color: #666;
+    margin-bottom: 20px;
+    transition: all 0.15s;
+
+    &:hover {
+        transform: scale(1.01);
+    }
+
+    .background {
+        height: 200px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .content {
+        padding: 20px;
+
+        p {
+            font-weight: normal;
+        }
+
+        h1, h2 {
+            margin: 5px 0 15px 0;
+        }
+    }
+}
+
+.gatsby-highlight {
+    margin: 30px auto !important;
+}
+
 @include media(">phone") {
+    .two-columns-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+        max-width: 960px;
+        margin: 50px auto;
+
+        .col {
+            margin: 0 auto;
+        }
+
+        a:after {
+            display: none;
+        }
+    }
+
     .three-columns-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

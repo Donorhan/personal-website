@@ -5,23 +5,37 @@
  */
 
 module.exports = {
-  siteMetadata: {
-    siteUrl: `https:/dorhan.fr`,
-    author: `Orhan Donovan`,
-    defaultLanguage: 'en',
-  },
-  plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-react-svg`,
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-sitemap`,
-    `gatsby-transformer-json`,
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: `data`,
-        path: `${__dirname}/src/data`
-      }
-    }
-  ],
+    siteMetadata: {
+        siteUrl: `https:/dorhan.fr`,
+        author: `Orhan Donovan`,
+        defaultLanguage: 'en',
+    },
+    plugins: [
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-react-svg`,
+        `gatsby-plugin-sass`,
+        `gatsby-plugin-sitemap`,
+        `gatsby-transformer-json`,
+        `gatsby-remark-prismjs`,
+        {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+                plugins: [
+                    {
+                        resolve: `gatsby-remark-prismjs`,
+                        options: {
+                            aliases: { sh: "bash", js: "javascript" },
+                            showLineNumbers: false,
+                        }
+                    }],
+            },
+        },
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: `data`,
+                path: `${__dirname}/src/data`
+            }
+        }
+    ],
 }

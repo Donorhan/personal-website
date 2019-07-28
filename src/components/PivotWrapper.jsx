@@ -7,8 +7,6 @@ class PivotWrapper extends Component {
 
         try {
             require('../../static/js/pivotjs/pivot')(window, document);
-
-            console.log('window.pivot', window.pivot);
             window.pivot.init({
                 selector,
                 shine: true,
@@ -18,7 +16,7 @@ class PivotWrapper extends Component {
                 shadow: true,
             });
         } catch (e) {
-            console.log(e)
+            console.error(e)
         }
     }
 
@@ -36,6 +34,5 @@ class PivotWrapper extends Component {
 PivotWrapper.propTypes = {
     children: PropTypes.node.isRequired,
 };
-
 
 export default PivotWrapper;
