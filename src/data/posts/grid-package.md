@@ -24,7 +24,7 @@ The purpose of this blog is not necessarily to get into the technique but I will
 
 <small>Note: In general I avoid putting too much logic in Unity components, that's why I tend to create all the logic in models and then expose some methods to Unity components.</small>
 
-### Le core
+### Core
 The core is composed of a grid, composed of blocks, that makes two classes:
 - **Grid**: It contains a collection of IGridElement
 - **IGridElement**: An interface that defines what the elements of a grid should look like
