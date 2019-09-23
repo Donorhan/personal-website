@@ -56,8 +56,8 @@ export default () => (
                     <Skill name="NodeJS" url="https://nodejs.org" image="img/nodejs.png" />
                     <Skill name="React" url="https://reactjs.org" image="img/react.png" />
                     <Skill name="Laravel" url="https://laravel.com" image="img/laravel.png" />
-                    <Skill name="Vue" url="https://www.figma.com" image="img/vue.png" />
-                    <Skill name="Figma" url="https://vuejs.org" image="img/figma.png" />
+                    <Skill name="Vue" url="https://vuejs.org" image="img/vue.png" />
+                    <Skill name="Figma" url="https://www.figma.com" image="img/figma.png" />
                 </SkillContainer>
             </Container>
         </section>

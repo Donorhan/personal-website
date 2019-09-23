@@ -1,6 +1,6 @@
 ---
 title: The Grid package
-description: This post is related to the gatsbyjs
+description: The first module for the game, a grid management tool
 date: '2019-07-29'
 image: '../img/blog-posts/grid-package/thumbnail.jpg'
 tags: ['module', 'echo']

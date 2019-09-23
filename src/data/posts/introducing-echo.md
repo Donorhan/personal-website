@@ -1,6 +1,6 @@
 ---
 title: Introducing Echo
-description: This post is related to the gatsbyjs
+description: Introducing the game Echo and the main theme of this blog
 date: '2019-07-28'
 image: '../img/echo/1.jpg'
 tags: ['echo']
