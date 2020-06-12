@@ -13,25 +13,25 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "gatsby": "^2.15.21",
-    "gatsby-plugin-react-helmet": "^3.1.8",
+    "gatsby": "^2.23.3",
+    "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-react-svg": "^2.1.2",
-    "gatsby-plugin-robots-txt": "^1.5.0",
-    "gatsby-plugin-sass": "^2.1.15",
-    "gatsby-plugin-sitemap": "^2.2.14",
-    "gatsby-remark-prismjs": "^3.3.14",
-    "gatsby-source-filesystem": "^2.1.26",
-    "gatsby-transformer-json": "^2.2.9",
-    "gatsby-transformer-remark": "^2.6.24",
+    "gatsby-plugin-robots-txt": "^1.5.1",
+    "gatsby-plugin-sass": "^2.3.4",
+    "gatsby-plugin-sitemap": "^2.4.5",
+    "gatsby-remark-prismjs": "^3.5.4",
+    "gatsby-source-filesystem": "^2.3.11",
+    "gatsby-transformer-json": "^2.4.5",
+    "gatsby-transformer-remark": "^2.8.15",
     "include-media": "^1.4.9",
-    "node-sass": "^4.12.0",
-    "prismjs": "^1.17.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "node-sass": "^4.14.1",
+    "prismjs": "^1.20.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
