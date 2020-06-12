@@ -19,8 +19,9 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
     // Load projects
     const projects = JSON.parse(fs.readFileSync('./src/data/projects.json', { encoding: 'utf-8' }));
     projects.forEach((project) => {
+        console.log("test", project.name.split(' ').join('-').toLowerCase());
         createPage({
-            path: `/project/${project.name}/`,
+            path: `/project/${project.name.split(' ').join('-').toLowerCase()}/`,
             component: require.resolve("./src/templates/project.js"),
             context: { project },
         })

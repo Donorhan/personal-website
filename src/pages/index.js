@@ -14,7 +14,7 @@ export default () => (
                 <img src="img/avatar.png" alt="My avatar" width="102" height="102" />
                 <h1 className="h1">Hi there, I'm Dono</h1>
                 <p>
-                    I’m a passionate developer from Nantes working with various technologies.
+                    I’m a passionate freelance developer from <a href="https://www.google.com/maps/place/Nantes/@46.9943774,1.4667914,6.8z/data=!4m5!3m4!1s0x4805ee81f0a8aead:0x40d37521e0ded30!8m2!3d47.218371!4d-1.553621">Nantes</a> working with various technologies for mobile, websites and video games.
                     <br />
                     If you’d like to discuss about your future project, or just say hello, feel free to&nbsp;
                     <a href={`mailto:${email}`} title="Contact me">

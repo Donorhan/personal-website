@@ -27,6 +27,53 @@
         "date": ""
     },
     {
+        "name": "Marco",
+        "type": "website",
+        "thumbnail": "img/marco/1.jpg",
+        "website": "https://marco.jobteaser.com",
+        "description": "A scientific questionnaire, to explore your motivation drivers, values and professional interests in 10 minutes!",
+        "technologies": [
+            "React",
+            "NodeJS"
+        ],
+        "platforms": [
+            "Web"
+        ],
+        "images": [
+            "../../img/marco/1.jpg",
+            "../../img/marco/2.jpg",
+            "../../img/marco/3.jpg"
+        ],
+        "infos": [
+            "Made for theTribe"
+        ],
+        "date": ""
+    },
+    {
+        "name": "Winect",
+        "type": "application",
+        "thumbnail": "img/winect/1.jpg",
+        "website": "https://play.google.com/store/apps/details?id=io.thetribe.staging.buchervaslin",
+        "description": "Winect is the application provided by Bucher Vaslin as part of its Connect offer. It allows its customers to remotely monitor their machines (tangential filters, presses, etc.). You are always informed of the condition of your machines, while keeping your freedom of movement. You receive real-time alerts informing you of important events occurring at your facilities.",
+        "technologies": [
+            "React native",
+            "Expo"
+        ],
+        "platforms": [
+            "Android",
+            "IOS"
+        ],
+        "images": [
+            "../../img/winect/1.jpg",
+            "../../img/winect/2.jpg",
+            "../../img/winect/3.jpg"
+        ],
+        "infos": [
+            "Made for theTribe"
+        ],
+        "date": ""
+    },
+    {
         "name": "0x42c4d3",
         "type": "game",
         "thumbnail": "img/0x42c4d3/1.jpg",

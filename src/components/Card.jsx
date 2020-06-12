@@ -5,7 +5,7 @@ import './Card.scss';
 
 const Card = ({ title, image }) => (
     <div className="card">
-        <Link to={`/project/${title}`} aria-label={`Read more about ${title}`}>
+        <Link to={`/project/${title.split(' ').join('-').toLowerCase()}`} aria-label={`Read more about ${title}`}>
             <figure>
                 <img src={image} alt="" />
                 <div className="content">

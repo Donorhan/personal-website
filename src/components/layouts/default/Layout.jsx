@@ -9,11 +9,11 @@ const Layout = ({ children, goBackHome }) => (
         <Helmet>
             <html lang="en" />
             <meta charSet="utf-8" />
-            <title>Web and video game developer - Donovan Orhan</title>
+            <title>Freelance web, mobile and video game developer - Donovan Orhan</title>
             <link rel="canonical" href="https://dorhan.fr" />
-            <meta name="description" content="My personal website with my work" />
+            <meta name="description" content="I’m a passionate freelance developer working with various technologies for mobile, websites and video games." />
             <meta property="og:title" content="Web and video game developer - Donovan Orhan" />
-            <meta property="og:description" content="My personal website with my work" />
+            <meta property="og:description" content="I’m a passionate freelance developer working with various technologies for mobile, websites and video games" />
             <meta property="og:url" content="https://dorhan.fr" />
             <meta property="og:image" content="http://dorhan.fr/img/thumbnail.jpg" />
             <meta property="og:image:secure_url" content="https://dorhan.fr/img/thumbnail.jpg" />
