@@ -1,8 +1,38 @@
 [
     {
+        "name": "Goodgam.es",
+        "type": "website",
+        "thumbnail": "img/goodgames/2.jpg",
+        "website": "https://goodgam.es",
+        "description": "Get all the best content about games in one place. Create a custom feed or see whats is trending. Follow your favorite games and discover your next adventure!<br /><br /> While working on this project I had the chance to quickly set up a progressive web app as well as a flexible architecture allowing to add new content sources for both games and news.",
+        "technologies": [
+            "Laravel",
+            "Jquery",
+            "MariaDB"
+        ],
+        "platforms": [
+            "IOS",
+            "Android",
+            "Web"
+        ],
+        "images": [
+            "../../img/goodgames/1.jpg",
+            "../../img/goodgames/2.jpg",
+            "../../img/goodgames/3.jpg",
+            "../../img/goodgames/4.jpg",
+            "../../img/goodgames/5.jpg",
+            "../../img/goodgames/6.jpg"
+        ],
+        "infos": [
+            "Awesome team",
+            "Made aside my project Echo"
+        ],
+        "date": ""
+    },
+    {
         "name": "Echo",
         "type": "game",
-        "thumbnail": "img/echo/1.jpg",
+        "thumbnail": "img/echo/farming_room.jpg",
         "description": "Echo is an adventure/action/exploration game in space. The idea is to have a game in which the player can explore the universe at will while improving his ship and crew to go further and further into space. Obviously it would be too simple like that, many obstacles will be present throughout the trip.<br /><br />The game is under development.",
         "technologies": [
             "Custom packages",
@@ -16,9 +46,13 @@
             "Linux"
         ],
         "images": [
-            "../../img/echo/1.jpg",
-            "../../img/echo/2.jpg",
-            "../../img/echo/3.jpg"
+            "../../img/echo/dormitary_room.jpg",
+            "../../img/echo/farming_room.jpg",
+            "../../img/echo/energy_room.jpg",
+            "../../img/echo/black_hole.jpg",
+            "../../img/echo/space-background.jpg",
+            "../../img/echo/proto-dormitary.jpg",
+            "../../img/echo/croquis.jpg"
         ],
         "infos": [
             "Using Unity",
