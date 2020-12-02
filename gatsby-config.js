@@ -39,15 +39,14 @@ module.exports = {
             }
         },
         {
-            resolve: `gatsby-plugin-prefetch-google-fonts`,
+            resolve: `gatsby-plugin-google-fonts`,
             options: {
                 fonts: [
-                    {
-                        family: `Open Sans`,
-                        variants: [`300`, `400`, `500`]
-                    },
+                  `opensans`,
+                  `Open Sans\:300,400,500`
                 ],
-            },
+                display: 'swap'
+            }
         },
         {
             resolve: `gatsby-plugin-manifest`,
