@@ -1,3 +1,4 @@
+import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 import React from 'react';
 import './Skill.scss';
@@ -9,7 +10,7 @@ const Skill = ({ name, url, image }) => (
         rel="noopener noreferrer"
         target="_blank"
     >
-        <img src={image} alt="" />
+        <Img fixed={image} />
         <span>{name}</span>
     </a>
 );
@@ -17,7 +18,11 @@ const Skill = ({ name, url, image }) => (
 Skill.propTypes = {
     name: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
+    image: PropTypes.shape({
+        src: PropTypes.string.isRequired,
+        srcSet: PropTypes.string.isRequired,
+        srcWebp: PropTypes.string,
+    }),
 };
 
 export default Skill;

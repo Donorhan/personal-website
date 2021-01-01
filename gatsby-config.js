@@ -11,12 +11,15 @@ module.exports = {
         defaultLanguage: 'en',
     },
     plugins: [
+        `gatsby-plugin-preact`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-react-svg`,
         `gatsby-plugin-robots-txt`,
         `gatsby-plugin-sass`,
+        `gatsby-plugin-sharp`,
         `gatsby-plugin-sitemap`,
         `gatsby-transformer-json`,
+        `gatsby-transformer-sharp`,
         `gatsby-remark-prismjs`,
         {
             resolve: `gatsby-transformer-remark`,
@@ -35,17 +38,27 @@ module.exports = {
             resolve: 'gatsby-source-filesystem',
             options: {
                 name: `data`,
-                path: `${__dirname}/src/data`
+                path: `${__dirname}/src/data`,
             }
         },
         {
-            resolve: `gatsby-plugin-google-fonts`,
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                name: `images`,
+                path: `${__dirname}/src/images`
+            }
+        },
+        {
+            resolve: `gatsby-plugin-google-fonts-with-attributes`,
             options: {
                 fonts: [
                   `opensans`,
                   `Open Sans\:300,400,500`
                 ],
-                display: 'swap'
+                display: 'swap',
+                attributes: {
+                  rel: "stylesheet preload prefetch",
+                },
             }
         },
         {

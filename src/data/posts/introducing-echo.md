@@ -2,7 +2,7 @@
 title: Introducing Echo
 description: Introducing the game Echo and the main theme of this blog
 date: '2019-07-28'
-image: '../img/echo/1.jpg'
+image: '../img/blog-posts/introducing-echo/thumbnail.jpg'
 tags: ['echo']
 ---
 
@@ -13,7 +13,7 @@ For the moment not much, a POC (proof of concept) exists and... voilà 😅.
 
 <center>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WyCUqSmdvrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WyCUqSmdvrI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </center>
 
@@ -25,11 +25,11 @@ As you can see, the game will be in a cartoon universe.
 
 <center>
 
-![The final result](../../img/echo/proto-dormitary.jpg)
+![The final result](../../img/blog-posts/introducing-echo/proto-dormitary.jpg)
 
 *First sketch of the dormitory*
 
-![The final result](../../img/echo/final-dormitary.jpg)
+![The final result](../../img/blog-posts/introducing-echo/final-dormitary.jpg)
 
 *The final result*
 

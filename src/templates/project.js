@@ -1,10 +1,11 @@
+import { graphql } from 'gatsby';
 import React from 'react';
 import { Helmet } from "react-helmet";
 import Container from '../components/Container';
 import ImageGallery from '../components/ImageGallery';
 import Layout from '../components/layouts/default/Layout';
 
-export default ({ pageContext: { project } }) => {
+export default ({ pageContext: { project }, data }) => {
     if (!project) {
         return (
             <Layout goBackHome>
@@ -19,7 +20,7 @@ export default ({ pageContext: { project } }) => {
             </Layout>);
     }
 
-    const { description, infos, images, name, platforms, technologies, video, website } = project;
+    const { description, infos, name, platforms, technologies, video, website } = project;
 
     return (
         <Layout goBackHome>
@@ -48,7 +49,7 @@ export default ({ pageContext: { project } }) => {
             <section className="grey">
                 <Container>
                     <h2 className="h2">Assets</h2>
-                    <ImageGallery images={images} />
+                    <ImageGallery images={data.allFile.edges} />
                     {video && (
                         <div className="video-container">
                             <iframe
@@ -56,7 +57,7 @@ export default ({ pageContext: { project } }) => {
                                 width="560"
                                 height="315"
                                 src={video}
-                                frameborder="0"
+                                frameBorder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen
                             />
@@ -98,3 +99,25 @@ export default ({ pageContext: { project } }) => {
         </Layout>
     );
 };
+
+export const query = graphql`
+query ProjectsQuery($imagesFolder: String!) {
+    allFile(
+        filter: {
+          extension: { regex: "/(jpg)|(png)|(jpeg)/" }
+          relativeDirectory: { eq: $imagesFolder }
+        }
+      ) {
+        edges {
+          node {
+            base
+            childImageSharp {
+                fixed(width: 376, height: 233) {
+                    ...GatsbyImageSharpFixed_withWebp
+                }
+            }
+          }
+        }
+    }
+}
+`;

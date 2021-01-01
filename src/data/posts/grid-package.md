@@ -90,7 +90,7 @@ The following video is not very informative in itself but it presents several th
 - The search for the shortest route for the units
 - The blue display of the elements around our block in the grid
 
-<div class="iframe" style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/BowedGrimKitten' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p></p>
+<div class="iframe" style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/BowedGrimKitten' frameBorder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p></p>
 
 There you go! This small module is then used in Echo and is part of the basis of the game. It allows me to quickly manipulate the player's ship and the different levels on the planets.
 

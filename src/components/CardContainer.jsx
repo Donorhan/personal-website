@@ -7,7 +7,7 @@ import PivotWrapper from '../components/PivotWrapper';
 const CardContainer = ({ cards }) => (
     <PivotWrapper selector=".card figure">
         <div className={containerStyles.container}>
-            {cards.map(({ node: { name, thumbnail, url } }, index) => <Card key={index.toString()} title={name} image={thumbnail} url={url} />)}
+            {cards.map(({ node: { name, thumbnail, url } }, index) => <Card key={index.toString()} title={name} image={thumbnail.childImageSharp.fixed} url={url} />)}
         </div>
     </PivotWrapper>
 );

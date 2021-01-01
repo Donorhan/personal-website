@@ -1,4 +1,5 @@
 import PivotWrapper from '../components/PivotWrapper';
+import Img from "gatsby-image";
 import PropTypes from 'prop-types';
 import React from 'react';
 import './ImageGallery.scss';
@@ -8,15 +9,13 @@ const ImageGallery = ({ images }) => (
         <div className="gallery">
             {images.map((image, index) => (
                 <div className="tile" key={index.toString()}>
-                    <div style={{ backgroundImage: `url(${image})` }} />
+                    <div>
+                        <Img fixed={image.node.childImageSharp.fixed} />
+                    </div>
                 </div>
             ))}
         </div>
     </PivotWrapper>
 );
-
-ImageGallery.propTypes = {
-    images: PropTypes.arrayOf(PropTypes.string).isRequired,
-};
 
 export default ImageGallery;
