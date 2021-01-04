@@ -112,6 +112,31 @@
         "date": ""
     },
     {
+        "name": "Street rampage",
+        "type": "game",
+        "thumbnail": "../images/streetrampage/1.png",
+        "description": "Street rampage is a prototype created for fun with a friend. The idea was for him to learn Blender and for me to update myself with the latest version of Unity (3D animations, physics, post-effects, etc). The goal of the game is to destroy as many elements as possible in a given time.",
+        "technologies": [
+            "Unity 3D"
+        ],
+        "platforms": [
+            "Osx",
+            "Web"
+        ],
+        "images": [
+            "../images/streetrampage/1.png",
+            "../images/streetrampage/2.png",
+            "../images/streetrampage/3.png"
+        ],
+        "imagesFolder": "streetrampage",
+        "infos": [
+            "Prototype",
+            "Made in less than 1 week"
+        ],
+        "website": "https://dorhan.fr/Demos/Unity/StreetRampage/4",
+        "date": ""
+    },
+    {
         "name": "0x42c4d3",
         "type": "game",
         "thumbnail": "../images/0x42c4d3/1.jpg",
